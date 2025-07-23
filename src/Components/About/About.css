@@ -189,10 +189,13 @@
     padding: 0 10px;
   }
 
-  .about-skill {
-    gap: 10px;
-    justify-content: space-between;
-  }
+ .about-skill {
+  display: flex;
+  flex-direction: column; /* Stack p and hr vertically */
+  align-items: flex-start; /* Align both to the left */
+  gap: 10px;
+}
+
 
   .about-skill p {
     font-size: 13px;

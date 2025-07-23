@@ -31,7 +31,8 @@ const Footer = () => {
        
        <div className="footer-bottom">
        <div className="footer-bottom-left">
-        Designed & developed by Annalakshmi ✨ | Powered by code & coffee ☕
+         © {new Date().getFullYear()} Annalakshmi. All rights reserved. <br />
+    Designed and Developed by Annalakshmi | Powered by Passion and Precision.
 
        </div>
     </div>
