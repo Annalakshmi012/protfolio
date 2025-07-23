@@ -156,3 +156,58 @@ width: 100%;
         padding: 15px 40px;
     }
 }
+@media (max-width: 480px) {
+  .contact {
+    margin: 10px auto;
+    padding: 15px 20px;
+    gap: 12px;
+    max-width: 90%;
+  }
+
+  .contact-title h1 {
+    font-size: 25px;
+  }
+
+  .contact-left h1 {
+    font-size: 18px;
+    margin-right: -5px;
+  }
+
+  .contact-left p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .contact-title img {
+    width: 50px;
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    width: 95%;
+    max-width: 300px;
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+
+  .contact-right input {
+    height: 28px;
+  }
+
+  .contact-right textarea {
+    min-height: 60px;
+  }
+
+  .button-row {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .button-row .contact-submit {
+    flex: 1;
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

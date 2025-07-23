@@ -91,3 +91,48 @@
         height: 100%;
     }
 }
+@media (max-width: 480px) {
+   .certificate {
+    margin: 10px auto;
+    padding: 0 20px;
+    max-width: 90%;
+  }
+
+  .certificate-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* aligns title + image to the left */
+    gap: 10px;
+  }
+
+  .certificate-title h1 {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .certificate-title img {
+    width: 70px;
+    margin: 0;
+    margin-right: -10px;
+  }
+
+  .certificate-container {
+    grid-template-columns: 1fr; /* Show one image per row */
+    gap: 20px;
+  }
+
+  .certificate-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .certificate-show {
+    padding: 15px 30px;
+    font-size: 18px;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+}
+
